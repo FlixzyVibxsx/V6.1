@@ -49,11 +49,6 @@ function UILibrary.Main(PrjName,HideKey)
     Frame9 = Instance.new("Frame")
     Frame10 = Instance.new("Frame")
     UIPageLayout11 = Instance.new("UIPageLayout")
-    Script12 = Instance.new("Script")
-    Script13 = Instance.new("Script")
-    Script14 = Instance.new("Script")
-    Script15 = Instance.new("Script")
-    Script16 = Instance.new("Script")
     UIScale17 = Instance.new("UIScale")
 
     ScreenGui0.Name = "UI_TEST1"
@@ -109,7 +104,6 @@ function UILibrary.Main(PrjName,HideKey)
     ImageLabel4.ImageColor3 = Color3.new(0, 0, 0)
     ImageLabel4.ImageTransparency = 0.5
     ImageLabel4.ScaleType = Enum.ScaleType.Slice
-    ImageLabel4.SliceCenter = 49, 49, 450, 450
 
     Frame5.Parent = Frame1
     Frame5.Position = UDim2.new(0.364825308, 0, 0, 0)
