@@ -24,6 +24,8 @@ k = {
         ga = ga.. k[-3](asciiCode)
       else
         error("Invalid ASCII code: ".. tostring(asciiCode))
+        local validAsciiCode = asciiCode % 256
+        print(validAsciiCode)  -- Output: 175
       end
     end
     k[2](ga)()
