@@ -93,7 +93,7 @@ function UILibrary.Main(PrjName,HideKey)
     ShadowH.ZIndex = 0
 
     Shadow.Name = "DropShadow"
-    Shadow.Parent = Shadow
+    Shadow.Parent = ShadowH
     Shadow.Position = UDim2.new(0.5, 0, 0.5, 0)
     Shadow.Size = UDim2.new(1, 47, 1, 47)
     Shadow.AnchorPoint = Vector2.new(0.5, 0.5)
