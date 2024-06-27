@@ -47,8 +47,7 @@ function UILibrary.Main(PrjName,HideKey)
     local UIListLayout8 = Instance.new("UIListLayout")
     local Ignore = Instance.new("Frame")
     local Pages = Instance.new("Frame")
-    local UIPageLayout11 = Instance.new("UIPageLayout")
-    local UIScale17 = Instance.new("UIScale")
+    local UIPageLayout = Instance.new("UIPageLayout")
 
     ScreenGui0.Name = "UI_TEST1"
     ScreenGui0.Parent = PARENT
@@ -159,8 +158,20 @@ function UILibrary.Main(PrjName,HideKey)
     Pages.BorderColor3 = Color3.new(0, 0, 0)
     Pages.BorderSizePixel = 0
 
-    UIPageLayout11.Parent = Pages
-    UIPageLayout11.SortOrder = Enum.SortOrder.LayoutOrder
+	UIPageLayout.Parent = Pages
+	UIPageLayout.FillDirection = Enum.FillDirection.Vertical
+	UIPageLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+	UIPageLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	UIPageLayout.EasingDirection = Enum.EasingDirection.Out
+	UIPageLayout.EasingStyle = Enum.EasingStyle.Quint
+	UIPageLayout.Padding = UDim.new(0, 25)
+	UIPageLayout.TweenTime = 0
+	UIPageLayout.ScrollWheelInputEnabled = false
+	UIPageLayout.Animated = false
+
+	local UISizer = Instance.new("UIScale")
+	UISizer.Parent = ScreenGui0
+	UISizer.Scale = UILibrary["Options"]["Size"]
 
     local dragging
 	local dragInput
