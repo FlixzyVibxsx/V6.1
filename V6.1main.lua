@@ -39,8 +39,6 @@ function UILibrary.Main(PrjName,HideKey)
     local ScreenGui0 = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
     local Title = Instance.new("TextLabel")
-    local Hold = Instance.new("Frame")
-    local Shadow = Instance.new("ImageLabel")
     local Line = Instance.new("Frame")
     local ButtonTab = Instance.new("Frame")
     local List = Instance.new("ScrollingFrame")
@@ -80,28 +78,6 @@ function UILibrary.Main(PrjName,HideKey)
     Title.TextColor = BrickColor.new("Hot pink")
     Title.TextColor3 = Color3.new(1, 0, 0.901961)
     Title.TextSize = 42
-
-    Hold.Name = "DropShadowHolder"
-    Hold.Parent = Main
-    Hold.Size = UDim2.new(1, 0, 1, 0)
-    Hold.BackgroundTransparency = 1
-    Hold.BorderColor = BrickColor.new("Really black")
-    Hold.BorderColor3 = Color3.new(0.105882, 0.105882, 0.105882)
-    Hold.BorderSizePixel = 0
-    Hold.ZIndex = 0
-
-    Shadow.Name = "DropShadow"
-    Shadow.Parent = Hold
-    Shadow.Position = UDim2.new(0.5, 0, 0.5, 0)
-    Shadow.Size = UDim2.new(1, 47, 1, 47)
-    Shadow.AnchorPoint = Vector2.new(0.5, 0.5)
-    Shadow.BackgroundTransparency = 1
-    Shadow.BorderSizePixel = 0
-    Shadow.ZIndex = 0
-    Shadow.Image = "rbxassetid://6014261993"
-    Shadow.ImageColor3 = Color3.new(0, 0, 0)
-    Shadow.ImageTransparency = 0.5
-    Shadow.ScaleType = Enum.ScaleType.Slice
 
     Line.Parent = Main
     Line.Position = UDim2.new(0.364825308, 0, 0, 0)
@@ -220,7 +196,7 @@ function UILibrary.Main(PrjName,HideKey)
 		Circles.Name = "Circles"
 		Circles.Parent = Main
 		Circles.AnchorPoint = Vector2.new(0.5, 0.5)
-		Circles.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+		Circles.BackgroundColor3 = Color3.fromRGB(29, 29, 255)
 		Circles.BackgroundTransparency = 1
 		Circles.BorderSizePixel = 0
 		Circles.ClipsDescendants = false
