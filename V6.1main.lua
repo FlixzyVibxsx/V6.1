@@ -12,6 +12,7 @@ function sandbox(var,func)
 	setfenv(func,newenv)
 	return func
 end
+cors = {}
 
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -35,8 +36,6 @@ for i,v in next, PARENT:GetChildren() do
 end
 
 function UILibrary.Main(PrjName,HideKey)
-    cors = {}
-    mas = Instance.new("Model",game:GetService("Lighting"))
     local ScreenGui0 = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
     local Title = Instance.new("TextLabel")
@@ -52,7 +51,7 @@ function UILibrary.Main(PrjName,HideKey)
     local UIScale17 = Instance.new("UIScale")
 
     ScreenGui0.Name = "UI_TEST1"
-    ScreenGui0.Parent = mas
+    ScreenGui0.Parent = PARENT
     ScreenGui0.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
     Main.Name = "UITEST"
