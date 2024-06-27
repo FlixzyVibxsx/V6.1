@@ -30,7 +30,7 @@ if not game:GetService("RunService"):IsStudio() then
 end
 
 for i,v in next, PARENT:GetChildren() do
-    if v.Name == "Library" then
+    if v.Name == "UI_TEST1" then
         v:Destroy()
     end
 end
