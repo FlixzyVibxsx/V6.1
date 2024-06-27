@@ -517,8 +517,8 @@ function UILibrary.Main(PrjName,HideKey)
 
 			SectionElements.Name = "SectionElements"
 			SectionElements.Parent = Section
-			SectionElements.BackgroundColor3 = Color3.fromRGB(255,255,255)
-			SectionElements.BackgroundTransparency = 1
+			SectionElements.BackgroundColor3 = Color3.fromRGB(0,0,0)
+			SectionElements.BackgroundTransparency = 0
 			SectionElements.BorderSizePixel = 0
 			SectionElements.ClipsDescendants = true
 			SectionElements.Position = UDim2.new(0, 7, 0, 33)
