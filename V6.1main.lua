@@ -494,7 +494,7 @@ function UILibrary.Main(PrjName,HideKey)
 
 			Section.Name = SectionName
 			Section.Parent = Elements
-			Section.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+			Section.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Section.BackgroundTransparency = 1
 			Section.BorderSizePixel = 0
 			Section.Size = UDim2.new(0, 482, 0, 0)
@@ -511,14 +511,14 @@ function UILibrary.Main(PrjName,HideKey)
 			SectionLabel.Size = UDim2.new(0, 127, 0, 18)
 			SectionLabel.Font = Enum.Font.GothamBold
 			SectionLabel.Text = SectionName
-			SectionLabel.TextColor3 = Color3.fromRGB(0, 145, 145)
+			SectionLabel.TextColor3 = Color3.fromRGB(255, 0, 230)
 			SectionLabel.TextSize = 16.000
 			SectionLabel.TextXAlignment = Enum.TextXAlignment.Left
 
 			SectionElements.Name = "SectionElements"
 			SectionElements.Parent = Section
 			SectionElements.BackgroundColor3 = Color3.fromRGB(255,255,255)
-			SectionElements.BackgroundTransparency = 0
+			SectionElements.BackgroundTransparency = 1
 			SectionElements.BorderSizePixel = 0
 			SectionElements.ClipsDescendants = true
 			SectionElements.Position = UDim2.new(0, 7, 0, 33)
