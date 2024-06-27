@@ -39,7 +39,7 @@ function UILibrary.Main(PrjName,HideKey)
     mas = Instance.new("Model",game:GetService("Lighting"))
     local ScreenGui0 = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
-    local PrjName = Instance.new("TextLabel")
+    local Title = Instance.new("TextLabel")
     local Hold = Instance.new("Frame")
     local Shadow = Instance.new("ImageLabel")
     local Line = Instance.new("Frame")
@@ -66,22 +66,22 @@ function UILibrary.Main(PrjName,HideKey)
     Main.BorderColor3 = Color3.new(0.105882, 0.105882, 0.105882)
     Main.BorderSizePixel = 0
 
-    PrjName.Name = "TitleN"
-    PrjName.Parent = Main
-    PrjName.Position = UDim2.new(0.0447093174, 0, 0.0200000051, 0)
-    PrjName.Size = UDim2.new(0, 200, 0, 50)
-    PrjName.BackgroundColor = BrickColor.new("Really black")
-    PrjName.BackgroundColor3 = Color3.new(0.105882, 0.105882, 0.105882)
-    PrjName.BackgroundTransparency = 1
-    PrjName.BorderColor = BrickColor.new("Really black")
-    PrjName.BorderColor3 = Color3.new(0, 0, 0)
-    PrjName.BorderSizePixel = 0
-    PrjName.Font = Enum.Font.Gotham
-    PrjName.FontSize = Enum.FontSize.Size48
-    PrjName.Text = "Flixz_y :]"
-    PrjName.TextColor = BrickColor.new("Hot pink")
-    PrjName.TextColor3 = Color3.new(1, 0, 0.901961)
-    PrjName.TextSize = 42
+    Title.Name = "TitleN"
+    Title.Parent = Main
+    Title.Position = UDim2.new(0.0447093174, 0, 0.0200000051, 0)
+    Title.Size = UDim2.new(0, 200, 0, 50)
+    Title.BackgroundColor = BrickColor.new("Really black")
+    Title.BackgroundColor3 = Color3.new(0.105882, 0.105882, 0.105882)
+    Title.BackgroundTransparency = 1
+    Title.BorderColor = BrickColor.new("Really black")
+    Title.BorderColor3 = Color3.new(0, 0, 0)
+    Title.BorderSizePixel = 0
+    Title.Font = Enum.Font.Gotham
+    Title.FontSize = Enum.FontSize.Size48
+    Title.Text = PrjName
+    Title.TextColor = BrickColor.new("Hot pink")
+    Title.TextColor3 = Color3.new(1, 0, 0.901961)
+    Title.TextSize = 42
 
     Hold.Name = "DropShadowHolder"
     Hold.Parent = Main
