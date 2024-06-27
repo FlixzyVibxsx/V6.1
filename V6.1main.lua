@@ -40,7 +40,7 @@ function UILibrary.Main(PrjName,HideKey)
     local ScreenGui0 = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
     local PrjName = Instance.new("TextLabel")
-    local ShadowH = Instance.new("Frame")
+    local Hold = Instance.new("Frame")
     local Shadow = Instance.new("ImageLabel")
     local Line = Instance.new("Frame")
     local ButtonTab = Instance.new("Frame")
@@ -83,17 +83,17 @@ function UILibrary.Main(PrjName,HideKey)
     PrjName.TextColor3 = Color3.new(1, 0, 0.901961)
     PrjName.TextSize = 42
 
-    ShadowH.Name = "DropShadowHolder"
-    ShadowH.Parent = Main
-    ShadowH.Size = UDim2.new(1, 0, 1, 0)
-    ShadowH.BackgroundTransparency = 1
-    ShadowH.BorderColor = BrickColor.new("Really black")
-    ShadowH.BorderColor3 = Color3.new(0.105882, 0.105882, 0.105882)
-    ShadowH.BorderSizePixel = 0
-    ShadowH.ZIndex = 0
+    Hold.Name = "DropShadowHolder"
+    Hold.Parent = Main
+    Hold.Size = UDim2.new(1, 0, 1, 0)
+    Hold.BackgroundTransparency = 1
+    Hold.BorderColor = BrickColor.new("Really black")
+    Hold.BorderColor3 = Color3.new(0.105882, 0.105882, 0.105882)
+    Hold.BorderSizePixel = 0
+    Hold.ZIndex = 0
 
     Shadow.Name = "DropShadow"
-    Shadow.Parent = ShadowH
+    Shadow.Parent = Hold
     Shadow.Position = UDim2.new(0.5, 0, 0.5, 0)
     Shadow.Size = UDim2.new(1, 47, 1, 47)
     Shadow.AnchorPoint = Vector2.new(0.5, 0.5)
