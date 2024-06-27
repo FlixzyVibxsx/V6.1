@@ -378,7 +378,7 @@ function UILibrary.Main(PrjName,HideKey)
 		Elements.BackgroundTransparency = 1
 		Elements.BorderSizePixel = 0
 		Elements.Position = UDim2.new(0.0178926438, 0, 0, 37)
-		Elements.Size = UDim2.new(1, -20, 0, 385)
+		Elements.Size = UDim2.new(1, -20, 0, 365)
 		Elements.CanvasSize = UDim2.new(0,0,0,0)
 		Elements.AutomaticCanvasSize = Enum.AutomaticSize.Y
 		Elements.ScrollBarThickness = 2
