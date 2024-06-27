@@ -497,8 +497,7 @@ function UILibrary.Main(PrjName,HideKey)
 			Section.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 			Section.BackgroundTransparency = 1
 			Section.BorderSizePixel = 0
-			Section.Size = UDim2.new(0, 482, 0, 18)
-			Section.AutomaticSize = Enum.AutomaticSize.Y
+			Section.Size = UDim2.new(0, 482, 0, 0)
 
 			UICorner.CornerRadius = UDim.new(0, 5)
 			UICorner.Parent = SectionElements
