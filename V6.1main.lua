@@ -20,7 +20,7 @@ local InputService = game:GetService("UserInputService")
 
 local UILibrary ={
 	["Options"] = {
-		["Size"] = 0.9
+		["Size"] = 1
 	}
 }
 
