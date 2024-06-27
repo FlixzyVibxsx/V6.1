@@ -524,7 +524,6 @@ function UILibrary.Main(PrjName,HideKey)
 			SectionElements.ClipsDescendants = true
 			SectionElements.Position = UDim2.new(0, 7, 0, 33)
 			SectionElements.Size = UDim2.new(0, 469, 0, 0)
-			SectionElements.AutomaticSize = Enum.AutomaticSize.Y
 
 			UIListLayout.Parent = SectionElements
 			UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
